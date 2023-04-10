@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Obsidian
+Exec=/home/taco/AppImages/Obsidian-1.1.16.AppImage
+Icon=/home/taco/AppImages/obsidian-md-logo.png
+Terminal=false
+Categories=Office;TextEditor;Utility;
+StartupWMClass=Obsidian
+
+MimeType=x-scheme-handler/obsidian;text/html;

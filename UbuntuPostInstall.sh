@@ -154,6 +154,6 @@ echo "5. Login to CoPilot on Neovim"
 echo "The SSH public key has been saved to the 'public_key.txt' file."
 echo "Please add this key to your GitHub account."
 
-((Get-ItemProperty HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\* | Where-Object { ($_.DisplayName -and $_.DisplayVersion) -and ($_.DisplayName -notmatch "\.NET|Cisco") } | Select-Object DisplayName, DisplayVersion) + (Get-ItemProperty HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\* | Where-Object { ($_.DisplayName -and $_.DisplayVersion) -and ($_.DisplayName -notmatch "\.NET|Cisco") } | Select-Object DisplayName, DisplayVersion)) | Sort-Object DisplayName | Export-Csv -Path "InstalledSoftware.csv" -NoTypeInformation -Encoding UTF8
+
 
 
